@@ -1,17 +1,18 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-function ColorG(){
+function CardAzul(){
   return (
       <div class="res-container" style={{ 
-        backgroundColor: 'green'
+        backgroundColor: 'blue'
       }}>
-          <h1>ColorGreen</h1>
+          <h1>CardAzul</h1>
+          <h3>uabalabdudub</h3>
           <div class="back-to-start-page">
-          <Link to="/">esconder</Link>
+          <Link to="/">sumidão</Link>
           </div>
       </div>
   );
 }
 
-export default ColorG;
+export default CardAzul;
